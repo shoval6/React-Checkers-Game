@@ -2,7 +2,7 @@
 This is a 2 players version to the classical game , built in ReactJS.<br />
 The players can undo or rest the game at any state point.<br />
 
-![](https://i.imgur.com/ZohKgAm.png =750x750)
+<img src="https://i.imgur.com/ZohKgAm.png" width="750" height="750" />
 
 ### Playing
 Start playing by clicking on the wanted piece from the board.<br />
