@@ -8,7 +8,7 @@ The players can undo or rest the game at any state point.<br />
 Start playing by clicking on the wanted piece from the board.<br />
 Board squares are highlighted to show the player optinal legeal moves.<br />
 Kings are made by crossing the borad to the last enemy row.<br />
-At this version the player does'nt have to make a jump if he could. <br />
+In this version the player does'nt have to make a jump if he could. <br />
 
 ### Code
 The project was started using create-react-app.<br />
