@@ -1,17 +1,19 @@
 # React Checkers Game
-This is a 2 players version to the classical game , built in ReactJS.
-The players can undo or rest the game at any state point.
+This is a 2 players version to the classical game , built in ReactJS.<br />
+The players can undo or rest the game at any state point.<br />
+
+![picture](https://i.imgur.com/ZohKgAm.png)
 
 ### Playing
-Start playing by clicking on the wanted piece from the board.
-Board squares are highlighted to show the player optinal legeal moves.
-Kings are made by crossing the borad to the last enemy row.
-At this version the player does'nt have to make a jump if he could. 
+Start playing by clicking on the wanted piece from the board.<br />
+Board squares are highlighted to show the player optinal legeal moves.<br />
+Kings are made by crossing the borad to the last enemy row.<br />
+At this version the player does'nt have to make a jump if he could. <br />
 
 ### Code
-The project was started using create-react-app.
-The board is initialized with characters. Each character represents a player piece or an empty cell.
-The code supports multi-jumping and history state for undo option.
+The project was started using create-react-app.<br />
+The board is initialized with characters. Each character represents a player piece or an empty cell.<br />
+The code supports multi-jumping and history state for undo option.<br />
 
 ### Run
 In the project directory, you can run:

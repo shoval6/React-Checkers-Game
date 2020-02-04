@@ -73,7 +73,8 @@ class Game extends React.Component{
     if(secondClick === true){
       clickedSquare = tempBoard[squareCoords[0]][squareCoords[1]];
       const {moves} = this.state;
-      const flag = Utils.isKing(rowIndex,clickedSquare);
+      const flag = Utils.isKing(rowIndex,clickedSquare,currentPlayer);
+      console.log(flag);
       Utils.replaceSquare(tempBoard,rowIndex,colIndex,(flag ? flag : clickedSquare));
       Utils.replaceSquare(tempBoard,squareCoords[0],squareCoords[1],'-');
 
@@ -91,7 +92,6 @@ class Game extends React.Component{
       }
 
       const winner = Utils.evaluateWinner(tempBoard);
-      console.log(winner)
 
       this.setState({
         board: tempBoard,
