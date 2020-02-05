@@ -69,7 +69,7 @@ button:focus {
       border: none;
       cursor:pointer;
       position:relative;
-      background-image: url("img/whiteKing.jpeg");
+      background-image: url("img/whiteKing.png");
       background-size: 55px 55px;
 }
 
@@ -81,7 +81,7 @@ button:focus {
       border: none;
       cursor:pointer;
       position:relative;
-      background-image: url("img/blackKing.jpeg");
+      background-image: url("img/blackKing.png");
       background-size: 55px 55px;
 }
 
