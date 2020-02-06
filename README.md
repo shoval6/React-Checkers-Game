@@ -1,6 +1,5 @@
 # React Checkers Game
 This is a 2 players version to the classical game , built in ReactJS.<br />
-The players can undo or rest the game at any state point.<br />
 
 <img src="https://i.imgur.com/pCIMYfN.png" width="500" height="500" />
 
